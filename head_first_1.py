@@ -1,4 +1,5 @@
 __author__ = 'joker_jiang'
+from nester import print_lol
 movies = ['the Holy Grail', 1975, 'Terry Jones', 91,
             ['Graham Chapman',
             ['Michael Palin', 'John Clees', 'Terry Gilliam', 'Eeic Idle', 'Terry Jones']]]
@@ -24,4 +25,4 @@ movies = ['the Holy Grail', 1975, 'Terry Jones', 91,
 #             print(each_item)
 
 
-print_lol(movies)
+print_lol(movies, True, 4)
