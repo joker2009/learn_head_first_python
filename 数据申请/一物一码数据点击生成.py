@@ -40,7 +40,7 @@ def login (browser):
     # browser.find_element_by_id("save").click()
     time.sleep(1)
     # n = 4
-    for i in range(0, 1):
+    for i in range(0, 10):
         # browser.switch_to_frame("iframe19")
         if i == 0:
             browser.find_element_by_xpath("/html/body/div/div/div/div/div[2]/div[2]/table/tbody/tr[5]/td[6]/a[1]").click()
