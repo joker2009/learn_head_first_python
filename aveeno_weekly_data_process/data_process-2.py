@@ -117,6 +117,7 @@ if __name__ == '__main__':
 
 # 用于提取EXCEL数据并写入文件中，已完成，将excel表所在文件夹
 #     c = r"C:\Users\joker\Desktop\20180614test"
+#     c = eval(input('输入excel所在文件夹路径：'))
     c = input('输入excel所在文件夹路径：')
     path_list = find_file_path(c)
     d =0
