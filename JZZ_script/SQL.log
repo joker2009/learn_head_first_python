@@ -1,0 +1,4 @@
+曾经使用过的SQL语句，备份在这里方便日后使用
+
+# 根据瓶码寻找箱码
+select box_name from bottle_box_relationship where bottle_code = "1015q0103823";
