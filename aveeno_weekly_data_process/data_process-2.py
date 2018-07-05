@@ -4,7 +4,7 @@ import os
 import csv
 # 将收到的数据写入到创建的文件中
 def write_file(list):
-    with open('2018-06-13.csv', 'a+', encoding='UTF-8') as f:
+    with open('2018-07-05_t1.csv', 'a+', encoding='UTF-8') as f:
 
         for i in list:
             # print(i)
